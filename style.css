@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  #game-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .player-container {
+    margin: 10px 0;
+  }
+  
+  .hand {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 60px;
+    height: 90px;
+    margin: 5px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .card.face-down {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .card.face-up {
+    background-color: #fff;
+  }
+  
+  #discard-pile, #deck {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golf Card Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+  <div id="game-container">
+    <h1>Golf Card Game</h1>
+    <div id="board">
+      <div id="player-1" class="player-container">
+        <h2>Player 1</h2>
+        <div class="hand" id="player-1-hand"></div>
+      </div>
+      <div id="player-2" class="player-container">
+        <h2>Player 2</h2>
+        <div class="hand" id="player-2-hand"></div>
+      </div>
+    </div>
+    <div id="discard-pile">
+      <h2>Discard Pile</h2>
+      <div id="discard-card" class="card"></div>
+    </div>
+    <div id="deck">
+      <h2>Deck</h2>
+      <button id="draw-button">Draw Card</button>
+    </div>
+    <div id="status"></div>
+  </div>
+</body>
+</html>
